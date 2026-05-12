@@ -12,6 +12,16 @@ int factorial(int n) {
     return result;
 }
 
+int power(int base, int exp) {
+    if (exp == 0) return 1;
+    if (exp < 0) return 0;
+    int result = 1;
+    for (int i = 0; i < exp; i++) {
+        result *= base;
+    }
+    return result;
+}
+
 int main() {
     printf("Добрый день, молодежь,\n");
     printf("последний commit ура\n");
@@ -26,6 +36,8 @@ int main() {
 
     int fact = factorial(num);
     printf("Факториал числа %d равен %d\n", num, fact);
+    
+    printf("2^3 = %d\n", power(2, 3));
 
     return 0;
 }
