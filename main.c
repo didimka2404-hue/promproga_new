@@ -23,7 +23,9 @@ int power(int base, int exp) {
 }
 
 int main() {
+
     printf("ALPHA: Добрый день, молодежь!\n");
+
     printf("последний commit ура\n");
     int num;
     setlocale(LC_ALL, "RUSSIAN");
