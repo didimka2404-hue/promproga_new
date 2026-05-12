@@ -23,7 +23,7 @@ int power(int base, int exp) {
 }
 
 int main() {
-    printf("Добрый день, молодежь,\n");
+    printf("BETA: Добрый день, молодежь!!\n");
     printf("последний commit ура\n");
     int num;
     setlocale(LC_ALL, "RUSSIAN");
